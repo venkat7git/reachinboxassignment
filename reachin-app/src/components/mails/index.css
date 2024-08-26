@@ -1,0 +1,200 @@
+.mails-container{
+    width: 22%;
+    height: 96%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right:1px solid #676464;
+    padding: 20px 20px 0px 20px;
+    
+  }
+  .demo-para{
+    color:#ffffff;
+  }
+  .mails-selection{
+    background-color: transparent;
+    border: none;
+    color: #4285F4;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 22px;
+    
+  }
+
+  .option{
+    background-color: #000000;
+    font-size: 16px;
+    font-family: "Roboto";
+    padding: 20px;
+    border-radius: 0px;
+
+  }
+  
+
+  .custom-inbox-options{
+    background-color: #000000;
+
+  }
+
+
+  .filter-and-retry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .retry-icon{
+    background-color: #1F1F1F;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .selected-mails{
+      color: #7F7F7F;
+      font-family: "Roboto";
+  }
+  .selected-mails-count{
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Roboto";
+  }
+
+  .search-input {
+    width: 250px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+  }
+  .search-container {
+    border: 1px solid #475569;
+    padding: 5px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 7px;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    width: 95%;
+  }
+ 
+  .search-icon-button {
+    background-color: transparent;
+    color: #ffffff;
+    width: 30px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  .reply-count-and-arrival-selector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .replies-count{
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Roboto";
+
+  }
+  .count-span{
+    background-color: #1F1F1F;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 7px;
+    font-family: "Roboto";
+  }
+  .select-input{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 600;
+
+}
+.h-line{
+  width: 100%;
+  color: #475569;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.loader-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.demo-para{
+    color: white;
+}
+
+.mails-list{
+    list-style-type: none;
+    padding: 0px;
+}
+.list-item{
+    color: #ffffff;
+    font-family: "Roboto";
+}
+.head-and-date{
+    display: flex;
+    justify-content: space-between;
+}
+.date-tag{
+    color: #7F7F7F;
+    font-family: "Roboto";
+    font-size: 13px;
+
+}
+.mail-id{
+    font-size: 18px;
+    font-family: "Roboto";
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+
+}
+.subject-para{
+    font-family: "Roboto";
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.status-tags-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+/* .user-status{
+    background-color: #1F1F1F;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    font-family: "Roboto";
+    margin-right: 10px;
+    font-size: 12px;
+
+} */
+.campaign-name{
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 10px;
+
+}
+

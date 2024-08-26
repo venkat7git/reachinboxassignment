@@ -1,0 +1,22 @@
+.main-container {
+    background-color: #000000;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+  }
+  
+  
+
+  .main-content-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .content-container-content{
+    width: 94%;
+    height: 100%;
+    display: flex;
+    
+
+    
+  }
+  
